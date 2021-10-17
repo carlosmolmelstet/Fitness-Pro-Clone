@@ -1,6 +1,6 @@
 import { Button, theme } from "@chakra-ui/react";
 import { motion } from "framer-motion"
-import Icon from "../Icon/Index";
+import Icon from "../Icon/Icon";
 
 export function ScrollButton() {
     return (

@@ -1,6 +1,6 @@
 import { Box, Flex, useColorMode } from "@chakra-ui/react";
 import React from "react";
-import Icon from "../Icon/Index";
+import Icon from "../Icon/Icon";
 import { MenuLink } from './MenuLink';
 import { SocialMedia } from "./SocialMedia";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Flex, Link, theme } from "@chakra-ui/react";
-import Icon from "../Icon/Index";
+import Icon from "../Icon/Icon";
 
 export function SocialMedia() {
     return (

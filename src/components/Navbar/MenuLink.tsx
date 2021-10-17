@@ -1,6 +1,6 @@
 import { Flex, Text, Box, theme } from "@chakra-ui/react";
 import React from "react";
-import Icon from "../Icon/Index";
+import Icon from "../Icon/Icon";
 
 interface MenuLinkProps {
     name: string;
