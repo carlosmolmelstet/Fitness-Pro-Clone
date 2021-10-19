@@ -4,7 +4,7 @@ import Icon from "../Icon/Icon";
 
 export function SocialMedia() {
     return (
-        <Flex ml={12}>
+        <Flex>
             <Link mr={8} href="https://github.com/carlosmolmelstet" target="_blank">
                 <Icon size={16} name="facebook" color={theme.colors.gray[500]} />
             </Link>

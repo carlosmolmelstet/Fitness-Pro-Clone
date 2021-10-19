@@ -32,7 +32,6 @@ export function Menu() {
                     <MenuLink key={item.id} name={item.name} isDropdown={item.isDropdown} />
                 ))}
             </Flex>
-            <SocialMedia />
         </Flex>
     );
 }

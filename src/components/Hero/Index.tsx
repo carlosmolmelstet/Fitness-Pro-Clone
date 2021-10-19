@@ -12,14 +12,14 @@ export function Hero() {
                 <Text
                     color="gray.500"
                     fontWeight="bold"
-                    mb={3}
+                    mb={1.5}
                 >
                     TRAIN SMARTER. GET STRONGER
                 </Text>
                 <Heading
                     fontFamily="SF Pro Display"
                     mb={5}
-                    fontSize="64px"
+                    fontSize={{ base: "48px", xl: "64px" }}
                     lineHeight="1"
                     letterSpacing="-.02em"
                 >

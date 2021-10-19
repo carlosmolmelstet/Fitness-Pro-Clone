@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-      {/* <Button onClick={toggleColorMode}>Theme</Button> */}
+      <Button position="absolute" bottom="0" onClick={toggleColorMode}>Theme</Button>
     </Container>
   )
 }
