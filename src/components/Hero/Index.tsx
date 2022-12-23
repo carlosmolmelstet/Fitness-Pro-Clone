@@ -4,7 +4,7 @@ import { Illustrations } from "./Illustrations";
 import { ScrollButton } from "./ScrollButton";
 
 export function Hero() {
-    const { colorMode } = useColorMode();
+    const { colorMode, toggleColorMode } = useColorMode();
 
     return (
         <Flex justify="space-between">
@@ -32,7 +32,7 @@ export function Hero() {
                     Track your workouts, get better results, and be the bestversion of you. Less thinking, more lifting.
                 </Text>
                 <Flex>
-                    <Button size="lg">Download App</Button>
+                    <Button size="lg" onClick={toggleColorMode}>Change Theme</Button>
                     <Button ml={4} size="lg" variant="outline">Book a Class</Button>
                 </Flex>
                 <ScrollButton />

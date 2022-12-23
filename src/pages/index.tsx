@@ -11,12 +11,10 @@ export default function Home() {
     <Container
      maxW="container.xl"
      px={20}
-     h="200vh"
+     h="100vh"
      >
       <Navbar />
       <Hero />
-
-      <Button position="absolute" bottom="0" onClick={toggleColorMode}>Theme</Button>
     </Container>
   )
 }
